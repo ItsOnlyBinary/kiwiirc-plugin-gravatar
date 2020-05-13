@@ -1,0 +1,8 @@
+{
+    "dsn": "user:password@tcp(127.0.0.1:3306)/anope",
+    "query": "SELECT display AS `account`, email FROM anope_db_NickCore WHERE display = ? LIMIT 0,1;",
+    "salt": "",
+    "gravatar_url": "//www.gravatar.com/avatar",
+    "cache_life": "6h",
+    "cache_interval": "15m"
+}
